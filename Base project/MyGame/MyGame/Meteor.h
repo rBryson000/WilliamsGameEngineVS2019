@@ -2,16 +2,17 @@
 
 #include "Engine/GameEngine.h"
 
-class Laser : public GameObject
+class Meteor : public GameObject
 {
 public:
-	Laser(sf::Vector2f pos);
+	Meteor(sf::Vector2f pos);
 
 	void draw();
 	void update(sf::Time& elapsed);
 	sf::FloatRect getCollisionRect();
+	void handleCollision(GameObject& otherGameObject);
 private:
 	sf::Sprite sprite_;
 };
 
-typedef std::shared_ptr<Laser> LaserPtr;
+typedef std::shared_ptr<Meteor> MeteorPtr;
