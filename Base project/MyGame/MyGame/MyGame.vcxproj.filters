@@ -76,5 +76,8 @@
     <Image Include="Resources\explosion-spritesheet.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\FlyingPotato.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
