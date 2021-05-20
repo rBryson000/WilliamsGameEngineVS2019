@@ -79,5 +79,14 @@
     <Image Include="..\..\..\..\..\..\Downloads\FlyingPotato.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\New Piskel (1).png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\spartan.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\newspartan.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>

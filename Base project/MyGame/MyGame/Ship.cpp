@@ -41,7 +41,7 @@ void Ship::update(sf::Time& elapsed) {
 
 Ship::Ship()
 {
-	sprite_.setTexture(GAME.getTexture("Resources/ship.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/newspartan.png"));
 	sprite_.setPosition(sf::Vector2f(100, 100));
 }
 
