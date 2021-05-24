@@ -11,10 +11,10 @@ void Ship::update(sf::Time& elapsed) {
 
 	int msElapsed = elapsed.asMilliseconds();
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))  y -= SPEED * msElapsed;
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) y += SPEED * msElapsed;
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) x -= SPEED * msElapsed;
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) x += SPEED * msElapsed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))  y -= SPEED * msElapsed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) y += SPEED * msElapsed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) x -= SPEED * msElapsed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) x += SPEED * msElapsed;
 
 	sprite_.setPosition(sf::Vector2f(x, y));
 
@@ -41,7 +41,7 @@ void Ship::update(sf::Time& elapsed) {
 
 Ship::Ship()
 {
-	sprite_.setTexture(GAME.getTexture("Resources/newspartan.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/ship.png"));
 	sprite_.setPosition(sf::Vector2f(100, 100));
 }
 

@@ -119,6 +119,7 @@
   <ItemGroup>
     <Image Include="..\..\..\..\..\..\Downloads\FlyingPotato.png" />
     <Image Include="..\..\..\..\..\..\Downloads\New Piskel (1).png" />
+    <Image Include="..\..\..\..\..\..\Downloads\New Piskel (2).png" />
     <Image Include="..\..\..\..\..\..\Downloads\spartan.png" />
     <Image Include="Resources\explosion-spritesheet.png" />
     <Image Include="Resources\laser.png" />
