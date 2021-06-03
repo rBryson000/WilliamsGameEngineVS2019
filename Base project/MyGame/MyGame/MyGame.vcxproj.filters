@@ -91,5 +91,14 @@
     <Image Include="..\..\..\..\..\..\Downloads\New Piskel (2).png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\tater.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\bakedtater (1).png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\rackettater.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>

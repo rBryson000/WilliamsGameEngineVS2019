@@ -117,10 +117,13 @@
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Downloads\bakedtater (1).png" />
     <Image Include="..\..\..\..\..\..\Downloads\FlyingPotato.png" />
     <Image Include="..\..\..\..\..\..\Downloads\New Piskel (1).png" />
     <Image Include="..\..\..\..\..\..\Downloads\New Piskel (2).png" />
+    <Image Include="..\..\..\..\..\..\Downloads\rackettater.png" />
     <Image Include="..\..\..\..\..\..\Downloads\spartan.png" />
+    <Image Include="..\..\..\..\..\..\Downloads\tater.png" />
     <Image Include="Resources\explosion-spritesheet.png" />
     <Image Include="Resources\laser.png" />
     <Image Include="Resources\meteor.png" />

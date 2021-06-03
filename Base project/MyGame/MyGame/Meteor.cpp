@@ -2,11 +2,11 @@
 #include "Explosion.h"
 #include "GameScene.h"
 
-const float SPEED = 0.25f;
+const float SPEED = 0.20f;
 
 Meteor::Meteor(sf::Vector2f pos)
 {
-	sprite_.setTexture(GAME.getTexture("Resources/meteor.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/rackettater.png"));
 	sprite_.setPosition(pos);
 	assignTag("meteor");
 	setCollisionCheckEnabled(true);
@@ -38,6 +38,11 @@ void Meteor::handleCollision(GameObject& otherGameObject)
 
 	}
 	makeDead();
+
+	if (otherGameObject.hasTag("ship"))
+	{
+		void decreaseLives();
+	}
 }
 void Meteor::draw()
 {

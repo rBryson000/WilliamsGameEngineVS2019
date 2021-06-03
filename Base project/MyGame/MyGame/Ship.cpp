@@ -1,7 +1,7 @@
 #include "Ship.h"
 #include "Laser.h"
 
-const float SPEED = 0.3f;
+const float SPEED = 0.4f;
 const int FIRE_DELAY = 200;
 
 void Ship::update(sf::Time& elapsed) {
@@ -41,7 +41,7 @@ void Ship::update(sf::Time& elapsed) {
 
 Ship::Ship()
 {
-	sprite_.setTexture(GAME.getTexture("Resources/ship.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/tater.png"));
 	sprite_.setPosition(sf::Vector2f(100, 100));
 }
 
@@ -49,3 +49,4 @@ void Ship::draw()
 {
 	GAME.getRenderWindow().draw(sprite_);
 }
+
