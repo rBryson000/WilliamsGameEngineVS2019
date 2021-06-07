@@ -10,7 +10,7 @@ GameOverMessage::GameOverMessage(int score)
 	text_.setFillColor(sf::Color::Red);
 
 	std::stringstream stream;
-	stream << "GAME OVER\n\nYOUR SCORE: " << score << "\n\nPRESS ENTER TO CONTINUE";
+	stream << "YOU FAILED\n\nYOUR SCORE: " << score << "\n\nPRESS ENTER TO NOT FAIL";
 	text_.setString(stream.str());
 }
 

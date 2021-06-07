@@ -36,13 +36,9 @@ void Meteor::handleCollision(GameObject& otherGameObject)
 
 		otherGameObject.makeDead();
 
+
 	}
 	makeDead();
-
-	if (otherGameObject.hasTag("ship"))
-	{
-		void decreaseLives();
-	}
 }
 void Meteor::draw()
 {
