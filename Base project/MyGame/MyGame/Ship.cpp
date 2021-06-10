@@ -2,7 +2,7 @@
 #include "Laser.h"
 
 const float SPEED = 0.4f;
-const int FIRE_DELAY = 200;
+const int FIRE_DELAY = 300;
 
 void Ship::update(sf::Time& elapsed) {
 	sf::Vector2f pos = sprite_.getPosition();

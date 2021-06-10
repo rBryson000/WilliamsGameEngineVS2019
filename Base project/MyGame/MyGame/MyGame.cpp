@@ -4,7 +4,7 @@
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 
-const std::string WINDOW_TITLE = "susus amogus";
+const std::string WINDOW_TITLE = "DONT LOOK BEHIND YOU!!!!!!!!!!!!!!!!!!!!!!!!";
 
 int main()
 {

@@ -6,11 +6,11 @@ GameOverMessage::GameOverMessage(int score)
 {
 	text_.setFont(GAME.getFont("Resources/Courneuf-Regular.ttf"));
 	text_.setPosition(sf::Vector2f(50.0f, 50.0f));
-	text_.setCharacterSize(48);
+	text_.setCharacterSize(30);
 	text_.setFillColor(sf::Color::Red);
 
 	std::stringstream stream;
-	stream << "YOU FAILED\n\nYOUR SCORE: " << score << "\n\nPRESS ENTER TO NOT FAIL";
+	stream << "SHUT UP I KNOW IM NOT A GOOD ARTIST\n\nYOUR SCORE: " << score << "\n\nPRESS ENTER TO TRY AGAIN LOSER";
 	text_.setString(stream.str());
 }
 
